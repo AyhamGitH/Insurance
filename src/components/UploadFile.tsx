@@ -29,7 +29,7 @@ const UploadFile: React.FC = () => {
                 console.log('Uploading file:', file.name);
                 setError(null);
             } catch (err) {
-                setError('Failed to upload file');
+                setError('Failed to upload file'+err);
             } finally {
                 setUploading(false);
             }

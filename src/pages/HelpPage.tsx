@@ -10,8 +10,6 @@ import {
   Button,
   Grid,
   Paper,
-  useTheme,
-  useMediaQuery,
   styled,
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
@@ -30,8 +28,6 @@ const StyledPaper = styled(Paper)(({ theme }) => ({
 }));
 
 const HelpPage: React.FC = () => {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const [formData, setFormData] = useState({
     name: '',
     email: '',

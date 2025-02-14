@@ -1,4 +1,4 @@
-import { AppBar, Box, Toolbar, IconButton, Badge, Avatar, Typography, Button, useMediaQuery, Drawer, List, ListItem, ListItemText } from '@mui/material';
+import { AppBar, Box, Toolbar, IconButton, Badge, useMediaQuery, Drawer,} from '@mui/material';
 import { Notifications as NotificationsIcon, Menu as MenuIcon } from '@mui/icons-material';
 import InputSearch from './InputSearch';
 import ProfileAvatar from './ProfileAvatar';

@@ -8,7 +8,7 @@ const BottomNav: React.FC = () => {
     const [value, setValue] = React.useState(0);
     const navigate = useNavigate();
 
-    const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
+    const handleChange = (_: React.ChangeEvent<unknown>, newValue: number) => {
         setValue(newValue);
         switch (newValue) {
             case 0:

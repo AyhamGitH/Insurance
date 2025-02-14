@@ -30,7 +30,7 @@ const FormStepper: React.FC = () => {
         setActiveStep((prevActiveStep) => prevActiveStep - 1);
     };
 
-    const handleChange = (field: string, value: any) => {
+    const handleChange = (field: string, value: string | Dayjs | null) => {
         setFormData((prevData) => ({
             ...prevData,
             [field]: value
